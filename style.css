@@ -29,6 +29,10 @@ body {
   fill: none;
 }
 
+.elastic svg:nth-child(2) {
+  filter: blur(25px);
+}
+
 .elastic svg path {
   width: 100%;
   stroke: #ff0092;
