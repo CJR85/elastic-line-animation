@@ -22,6 +22,30 @@ body {
   align-items: flex-end;
 }
 
+.elastic::before {
+  content: '';
+  position: absolute;
+  bottom: 62.5px;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.elastic::after {
+  content: '';
+  position: absolute;
+  bottom: 62.5px;
+  right: 5px;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
 .elastic svg {
   position: absolute;
   width: 400px;
